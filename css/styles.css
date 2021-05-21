@@ -1,0 +1,60 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9375em;
+  background-color: hsl(233, 47%, 7%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+}
+/***CLASSES***/
+.card {
+  width: 70%;
+  position: relative;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(244, 38%, 16%);
+  margin: 10% 10%;
+  padding: 3%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.content {
+  width: 40%;
+  height: 100%;
+  margin-right: 25px;
+}
+
+.stats {
+  margin-top: 10%;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+}
+
+.stat {
+  margin-right: 40px;
+}
+
+.number {
+  font-size: 1.2em;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.num-desc {
+  text-transform: uppercase;
+  font-size: 0.9375em;
+}
+.img {
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
